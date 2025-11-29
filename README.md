@@ -1,7 +1,6 @@
 # Capstone-Responsive Website Project
 
-## Title:
-> Wanderlust-Travel Agency Website 
+## Title: ### Wanderlust-Travel Agency Website 
 ## Theme:
 > A single-page, responsive landing page for a fictional Indian travel agency, focusing on high visual appeal, smooth navigation, and clear presentation of tour packages and destinations.
 
