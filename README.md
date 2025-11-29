@@ -1,7 +1,9 @@
 # Capstone-Responsive Website Project
 
-## **Title:** Wanderlust-Travel Agency Website 
-## **Theme:** A single-page, responsive landing page for a fictional Indian travel agency, focusing on high visual appeal, smooth navigation, and clear presentation of tour packages and destinations.
+## Title:
+> Wanderlust-Travel Agency Website 
+## Theme:
+> A single-page, responsive landing page for a fictional Indian travel agency, focusing on high visual appeal, smooth navigation, and clear presentation of tour packages and destinations.
 
 ## Sections Implemented
 
@@ -23,11 +25,11 @@
 
 ### How It Works
 
-A simple 3-step guide using a pseudo-glassmorphism effect.
+> A simple 3-step guide using a pseudo-glassmorphism effect.
 
 ### Traveler Testimonials
 
-A grid of customer reviews with avatars and star ratings.
+> A grid of customer reviews with avatars and star ratings.
 
 ### The Yatra Blog
 
@@ -51,66 +53,22 @@ A grid of customer reviews with avatars and star ratings.
 
 ## Layout and Responsiveness
 
-This project is built following a mobile-first philosophy, ensuring readability and usability across all devices.
+- **CSS Grid (```grid-template-columns```):** Used extensively for the ```dest-grid```, ```package-cards```, and ```testimonial-grid``` to ensure content wraps naturally and maintains visual balance across different screen sizes.
 
-Main Layout Techniques
+- **CSS Flexbox (```display: flex```):** Used for micro-layouts like the steps and stats sections, and for aligning items in the header and newsletter sections.
 
-CSS Grid (grid-template-columns): Used extensively for the dest-grid, package-cards, and testimonial-grid to ensure content wraps naturally and maintains visual balance across different screen sizes.
+- **object-fit: cover:** Applied to all destination and blog images to ensure they fill their container without distortion, maintaining a consistent height (220px).
 
-CSS Flexbox (display: flex): Used for micro-layouts like the steps and stats sections, and for aligning items in the header and newsletter sections.
+- **Sticky Header:** The main navigation (```<header>```) uses ```position: sticky```; to remain visible while scrolling.
 
-object-fit: cover: Applied to all destination and blog images to ensure they fill their container without distortion, maintaining a consistent height (220px).
+## Visual Output (Screenshots)
 
-Sticky Header: The main navigation (<header>) uses position: sticky; to remain visible while scrolling.
+![alt text](images/SC1.png)
 
-Breakpoints Used
+![alt text](images/SC12.png)
 
-The responsiveness is primarily managed by two major media query breakpoints:
+![alt text](images/SC3.png)
 
-Breakpoint
+![alt text](images/SC4.png)
 
-Technique
-
-Purpose
-
-max-width: 768px
-
-Full mobile styling.
-
-Hides the desktop navigation and displays the Hamburger Menu. Converts the steps section from a horizontal row to a vertical column.
-
-max-width: 600px
-
-Small mobile/tablet styling.
-
-Adjusts the stats section to wrap onto two rows (50% width per item) and converts vertical separators to horizontal ones.
-
-min-width: 1000px
-
-Large desktop styling.
-
-Ensures the dest-grid and package-cards maintain a dedicated three-column layout for a professional, spacious appearance on wide screens.
-
-How to Open and View Locally
-
-Since this is a single, self-contained HTML file, viewing it is straightforward:
-
-Save the Code: Save the entire code block provided as a single file named index.html.
-
-Save Images (Crucial): If you are using locally saved images (as discussed), create a folder named images in the same directory as index.html. Place all image files (e.g., goa-beach.jpg, your-hero-image.jpg) inside this folder, matching the paths specified in the code.
-
-Open in Browser: Double-click the index.html file. It will automatically open in your default web browser (Chrome, Firefox, etc.).
-
-Note: This file does not require any build tools or server setup to run.
-
-Visual Overview (Screenshots)
-
-To showcase your project's appearance and responsiveness, you can add screenshots directly into this README.md file using standard Markdown image syntax.
-
-Steps to Add Screenshots:
-
-Create a Folder: Create a new folder (e.g., screenshots) in the root of your project directory.
-
-Save Images: Place your captured screenshots (e.g., desktop-view.png, mobile-menu.png) into this folder.
-
-Use Markdown: Insert the image links using the following format:
+## By Aman Saklani
