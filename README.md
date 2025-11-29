@@ -63,7 +63,7 @@
 
 ![alt text](screenshots/SC1.png)
 
-![alt text](screenshots/SC12.png)
+![alt text](screenshots/SC2.png)
 
 ![alt text](screenshots/SC3.png)
 
