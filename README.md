@@ -61,12 +61,12 @@
 
 ## Visual Output (Screenshots)
 
-![alt text](images/SC1.png)
+![alt text](screenshots/SC1.png)
 
-![alt text](images/SC12.png)
+![alt text](screenshots/SC12.png)
 
-![alt text](images/SC3.png)
+![alt text](screenshots/SC3.png)
 
-![alt text](images/SC4.png)
+![alt text](screenshots/SC4.png)
 
 ## By Aman Saklani
